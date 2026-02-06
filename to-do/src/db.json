@@ -1,7 +1,12 @@
 {
-    "users" :{
+    "users" :[ 
+        {
+            
+        }
+
+    ],
        
-    },
+    
     "appointments":{
         
     }
