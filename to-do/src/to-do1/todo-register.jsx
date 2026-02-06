@@ -12,7 +12,7 @@ const formik = useFormik({
         email : "",
     },
     onSubmit: (user) =>{
-        axios.post(`http://localhost/user`, user)
+        axios.post(`http://localhost:3000/users`, user)
         .then(()=>{
             console.log('registered')
         })
