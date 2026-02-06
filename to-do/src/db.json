@@ -1,13 +1,15 @@
 {
-    "users" :[ 
-        {
-            
-        }
-
-    ],
-       
-    
-    "appointments":{
-        
+  "users": [
+    {
+      "id": "ca74"
+    },
+    {
+      "id": "7cd9",
+      "user_id": 89,
+      "user_name": "nishu",
+      "password": "nishu@123",
+      "email": "justin@gmail.com"
     }
+  ],
+  "appointments": {}
 }

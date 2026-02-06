@@ -1,7 +1,6 @@
+
 import { ToDologin } from "./todo-login";
 import { ToDoRegister } from "./todo-register";
-
-
 export function ToDoHome() {
     return (
         <div className="container-fluid">
@@ -26,10 +25,10 @@ export function ToDoHome() {
                     </div>
 
                     <div className="tab-content">
-                        <div className="tab-panel" id="login">
-                            <ToDologin/>
+                        <div className="tab-pane active" id="login">
+                            <ToDologin/> 
                         </div>
-                        <div className="tab-panel" id="register">
+                        <div className="tab-pane" id="register">
                             <ToDoRegister/>
                         </div>
                     </div>

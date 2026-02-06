@@ -21,19 +21,19 @@ const formik = useFormik({
 })
     return(
         <div className="container-fluid">
-            <from className="p-4 w-50" onSubmit={formik.handleSubmit}>
+            <form className="p-4 w-50" onSubmit={formik.handleSubmit}>
                 <dl>
                     <dt>User_Id</dt>
-                    <dd><input type="number" className="from-control" name="user_id"  onSubmit={formik.handleChange}/></dd>
+                      <dd><input type="number" className="form-control" name="user_id"  onChange={formik.handleChange}/></dd>
                     <dt>User_name</dt>
-                    <dd><input type="text" className="from-control" name="user_name"  onSubmit={formik.handleChange} /></dd>
+                    <dd><input type="text" className="form-control" name="user_name"  onChange={formik.handleChange} /></dd>
                     <dt>Password</dt>
-                    <dd><input type="password" className="from-control" name="password"  onSubmit={formik.handleChange} /></dd>
+                    <dd><input type="password" className="from-control" name="password"  onChange={formik.handleChange} /></dd>
                     <dt>Email</dt>
-                    <dd><input type="email" className="from-control" name="email"  onSubmit={formik.handleChange} /></dd>
+                    <dd><input type="email" className="from-control" name="email"  onChange={formik.handleChange} /></dd>
                 </dl>
                 <button className="btn btn-primary w-25" type="submit" > Register</button>
-            </from>
+            </form>
             
         </div>
     )
