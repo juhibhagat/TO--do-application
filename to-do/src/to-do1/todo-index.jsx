@@ -1,6 +1,8 @@
 import { BrowserRouter,Route,Routes ,Link } from 'react-router-dom'
 import { ToDoHome } from './todo-home'
 import { ToDoRegister } from './todo-register'
+import { ToDoDashboard } from './todo-dashbord.jsx'
+
 
 
 export function ToDoIndex() {
@@ -19,7 +21,8 @@ export function ToDoIndex() {
                 <section className='mt-2'>
                     <Routes>
                         <Route path="/" element={<ToDoHome/>} />
-                        <Route path="/register" element={<ToDoRegister/>} />
+                        <Route path="register" element={<ToDoRegister/>} />
+                        <Route path="dashboard" element={<ToDoDashboard/>}/>
                     </Routes>
                 </section>
 
