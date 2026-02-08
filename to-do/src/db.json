@@ -9,6 +9,20 @@
       "user_name": "nishu",
       "password": "nishu@123",
       "email": "justin@gmail.com"
+    },
+    {
+      "id": "83d6",
+      "user_id": 45,
+      "user_name": "juhi",
+      "password": "ASD",
+      "email": "justin@gmail.com"
+    },
+    {
+      "id": "1ccc",
+      "user_id": 40,
+      "user_name": "juhi3",
+      "password": "ASDas",
+      "email": "ghjjkj@gmail.com"
     }
   ],
   "appointments": {}
