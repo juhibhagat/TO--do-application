@@ -23,6 +23,13 @@
       "user_name": "juhi3",
       "password": "ASDas",
       "email": "ghjjkj@gmail.com"
+    },
+    {
+      "id": "7668",
+      "user_id": 46,
+      "user_name": "nishu",
+      "password": "lolo",
+      "email": "admin@gmail.com"
     }
   ],
   "appointments": {}

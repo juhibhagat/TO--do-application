@@ -7,8 +7,7 @@ export function ToDoDashboard(){
                         <div className="bi bi-pencil">Task</div>
                         <div className="bi bi-calendar-date my-4"> Calendar</div>
                         <div className="bi bi-folder">Categories</div>
-                    </nav>
-
+                    </nav> 
                 </div>
                 <div className="col-10 mt-4 ">
                      <div className="d-flex justify-content-between align-content-center">

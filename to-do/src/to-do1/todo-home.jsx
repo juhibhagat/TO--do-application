@@ -10,7 +10,7 @@ export function ToDoHome() {
                         <br />
                         <span > One Task at a Time  </span>
                         <div className="border border-3 border-dark">
-                            <img src="appointment.jpg" width="100%" height="100%" alt="appointment" />
+                            <img src="appointment.jpg" width="720px" height="600px" alt="appointment" />
                         </div>
                     </div>
                 </div>
